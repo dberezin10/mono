@@ -8,12 +8,7 @@ const App = () => {
     const [count, setCount] = React.useState(0);
     return (
         <div>
-            <Link to="/about">about</Link>
-            <br />
-            <Link to="/shop">shop</Link>
-            <button className={styles.button}  onClick={() => setCount((prev) => prev + 1)}>increment count</button>
-            roots {count}
-            <Input />
+            <h1>Shop module</h1>
             <Outlet />
         </div>
     );
